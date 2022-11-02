@@ -1,7 +1,6 @@
 fn main() {
     // Absolute path ->
     crate::greetings::english();
-    crate::greetings::spanish();
     crate::greetings::casual::english();
 
     // Relative path ->
@@ -22,7 +21,7 @@ mod greetings {
         casual::english();
     }
 
-    pub fn spanish() {
+    fn spanish() {
         println!("hola");
     }
 
