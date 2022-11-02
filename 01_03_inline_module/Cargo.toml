@@ -1,5 +1,5 @@
 [package]
-name = "managing_projects"
+name = "inline_module"
 version = "0.1.0"
 edition = "2021"
 
