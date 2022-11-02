@@ -22,10 +22,10 @@
 
 mod some_module;
 
-use managing_projects; // library crate for [managing_project] package
+use packages_and_crates; // library crate for [managing_project] package
 
 fn main() {
     println!("Running the managing_project executable.");
     some_module::mod_func();
-    managing_projects::lib_func();
+    packages_and_crates::lib_func();
 }

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "managing_projects"
+name = "packages_and_crates"
 version = "0.1.0"
