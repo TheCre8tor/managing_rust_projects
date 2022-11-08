@@ -12,11 +12,12 @@ fn main() {
      * We use a relative path to access the english
      * function from within the formal submodule of
      * the greeting module.
-     *
      * */
 
+    // Long path ->
     greeting::casual::english();
 
+    // Short path ->
     casual::english();
     casual::spanish();
 }
