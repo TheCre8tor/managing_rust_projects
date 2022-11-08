@@ -5,7 +5,10 @@
  * into scope for this [source file] with a [use]
  * statement */
 
-use greeting::casual;
+// use crate::greeting::casual;
+
+// This is called a nexted path ->
+use crate::greeting::{casual, formal};
 
 fn main() {
     /* Explanation:
@@ -16,6 +19,7 @@ fn main() {
 
     // Long path ->
     greeting::casual::english();
+    greeting::casual::spanish();
 
     // Short path ->
     casual::english();
