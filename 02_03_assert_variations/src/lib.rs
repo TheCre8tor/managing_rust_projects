@@ -8,12 +8,27 @@ mod tests {
 
     #[test]
     fn test_with_assert() {
-        assert!(add_two(2, 2) == 4);
+        let result = add_two(2, 2);
+        let expected = 4;
+
+        assert!(
+            result == expected,
+            "Expected {}; result was {}",
+            expected,
+            result
+        );
     }
 
     #[test]
     fn test_with_assert_eq() {
-        assert_eq!(add_two(2, 2), 4);
+        let result = add_two(2, 2);
+        let expected = 4;
+
+        assert_eq!(
+            result, expected,
+            "Expected {}; result was {}",
+            expected, result
+        );
     }
 
     #[test]
